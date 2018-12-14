@@ -12,6 +12,10 @@
   margin-top: 1rem;
 }
 
+.description-container {
+  margin-bottom: -3rem;
+}
+
 .my-description {
   max-width: 840px;
   letter-spacing: -1px;

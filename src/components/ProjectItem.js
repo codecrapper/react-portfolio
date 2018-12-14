@@ -6,7 +6,7 @@ const ProjectItem = props => {
 
     return (
         <li className="project-item__list">
-            <a href={projectUrl} target="_blank" className="project-link">
+            <a href={projectUrl} target="_blank" className="project-link" rel="noopener noreferrer">
                 <p className="project-title">{title}</p>
                 <span className="project-development">{development}</span>
                 <span className="project-type">{type}</span>

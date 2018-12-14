@@ -12,10 +12,13 @@
   .current-employment {
     height: auto;
     width: 100px;
+    /* margin-top: -25px; */
   }
   
   .previous-employment {
     height: auto;
     width: 150px;
     margin-top: 25px;
+    padding-bottom: 20px;
+    
   }

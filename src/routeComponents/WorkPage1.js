@@ -17,7 +17,7 @@ const WorkPage1 = () => {
                         </header>
                     </div>
                     <div className="work-image">
-                        <img src="https://images.pexels.com/photos/1108297/pexels-photo-1108297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                        <img src="https://images.pexels.com/photos/1108297/pexels-photo-1108297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="japan" />
                     </div>
                </div>
 
@@ -26,7 +26,7 @@ const WorkPage1 = () => {
                        <p className="work-description">[仮名],こもよ,みこもち,ふくしもよ,みぶくしもち,このをかに,なつますこ,いへきかな,のらさね,そらみつ,
                        やまとのくには,おしなべて,われこそをれ,しきなべて,われこそませ,われこそば,のらめ,いへをもなをも. やまとには,むらやまあれど,
                        とりよろふ,あめのかぐやま,のぼりたち,くにみをすれば,くにはらは,けぶりたちたつ,うなはらは,かまめたちたつ,うましくにぞ,
-                       あきづしま,やまとのくには<a href="https://www.google.com/" target="_blank" className="work-site__link">Visit Site</a></p>
+                       あきづしま,やまとのくには<a href="https://www.google.com/" target="_blank" className="work-site__link"  rel="noopener noreferrer">Visit Site</a></p>
                    </div>
                </div> 
 

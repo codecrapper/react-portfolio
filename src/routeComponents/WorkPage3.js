@@ -17,7 +17,7 @@ const WorkPage3 = () => {
                         </header>
                     </div>
                     <div className="work-image">
-                        <img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                        <img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="sweden"/>
                     </div>
                </div>
 
@@ -26,7 +26,7 @@ const WorkPage3 = () => {
                        <p className="work-description">Envar har rätt att fritt taga del i samhällets kulturella liv, att njuta av konsten samt att bli delaktig av 
                        vetenskapens framsteg och dess förmåner. Envar har rätt till skydd för de moraliska och materiella intressen, 
                        som härröra från varje vetenskapligt, litterärt eller konstnärligt verk, 
-                       till vilket han är upphovsman.<a href="https://www.google.com/" target="_blank" className="work-site__link">Visit Site</a></p>
+                       till vilket han är upphovsman.<a href="https://www.google.com/" target="_blank" className="work-site__link" rel="noopener noreferrer">Visit Site</a></p>
                    </div>
                </div> 
 

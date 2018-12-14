@@ -17,7 +17,7 @@ const WorkPage4 = () => {
                         </header>
                     </div>
                     <div className="work-image">
-                        <img src="https://images.pexels.com/photos/52547/lantern-festival-seoul-cheonggyecheon-stream-lantern-52547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                        <img src="https://images.pexels.com/photos/52547/lantern-festival-seoul-cheonggyecheon-stream-lantern-52547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="korea" />
                     </div>
                </div>
 
@@ -26,7 +26,7 @@ const WorkPage4 = () => {
                        <p className="work-description">스칼라로 쓰여진 한국어 처리기입니다. 현재 텍스트 정규화와 형태소 분석, 
                        스테밍을 지원하고 있습니다. 짧은 트윗은 물론이고 긴 글도 처리할 수 있습니다. 
                        개발에 참여하시고 싶은 분은 에 가입해 주세요. 사용법을 알고자 하시는 초보부터 
-                       코드에 참여하고 싶으신 분들까지 모두 환영합니다.<a href="https://www.google.com/" target="_blank" className="work-site__link">Visit Site</a></p>
+                       코드에 참여하고 싶으신 분들까지 모두 환영합니다.<a href="https://www.google.com/" target="_blank" className="work-site__link" rel="noopener noreferrer">Visit Site</a></p>
                    </div>
                </div> 
 

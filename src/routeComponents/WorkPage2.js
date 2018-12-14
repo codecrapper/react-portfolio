@@ -19,7 +19,7 @@ const WorkPage2 = () => {
                         </header>
                     </div>
                     <div className="work-image">
-                        <img src="https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                        <img src="https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="lorem" />
                     </div>
                </div>
 
@@ -32,7 +32,7 @@ const WorkPage2 = () => {
                        Neque gravida in fermentum et. Ac auctor augue mauris augue neque gravida in fermentum et. Sit amet nisl purus in. 
                        Semper auctor neque vitae tempus. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Non blandit massa enim nec dui. 
                        Nunc id cursus metus aliquam eleifend mi in. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. 
-                       Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis.<a href="https://www.google.com/" target="_blank" className="work-site__link">Visit Site</a></p>
+                       Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis.<a href="https://www.google.com/" target="_blank" className="work-site__link" rel="noopener noreferrer">Visit Site</a></p>
                    </div>
                </div> 
 

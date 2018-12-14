@@ -11,14 +11,14 @@ import Footer from './components/Footer';
 class App extends Component {
   render() {
     const featuredWorkDataComponents = featuredWorkData.map(data => 
-      <FeaturedWork key={data.id} imgSrc={data.imgSrc} title={data.title} pathTo={data.pathTo}/>
+      <FeaturedWork key={data.id} imgSrc={data.imgUrl} title={data.title} pathTo={data.pathTo}/>
     )
 
     return (
       <div className="content-container">
         <NavBar />
         <section className="my-info">
-          <div className="container">
+          <div className="container description-container">
             <p className="my-description">Hello, I am John. I am free lance <span className="fancy">developer.</span> Living in South Pole Antarctica, currently working for <span className="fancy">twitch.</span></p>
           </div>
           <div className="container">
