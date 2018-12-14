@@ -9,9 +9,13 @@ import ProjectList from './components/ProjectList';
 import Footer from './components/Footer';
 
 class App extends Component {
+  state = {
+    workData: featuredWorkData
+  }
+
   render() {
-    const featuredWorkDataComponents = featuredWorkData.map(data => 
-      <FeaturedWork key={data.id} imgSrc={data.imgSrc} title={data.title} pathTo={data.pathTo}/>
+    const featuredWorkDataComponents = this.state.workData.map(data => 
+      <FeaturedWork key={data.id} featuredWorkData={data} />
     )
 
     return (
