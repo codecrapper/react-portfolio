@@ -9,6 +9,13 @@ import ProjectList from './components/ProjectList';
 import Footer from './components/Footer';
 
 class App extends Component {
+
+  featuredWorkDataComponents = () => {
+    const featuredWorkDataComponents = featuredWorkData.map(data => 
+      <FeaturedWork key={data.id} imgSrc={data.imgUrl} title={data.title} pathTo={data.pathTo}/>
+    )
+  }
+
   render() {
     const featuredWorkDataComponents = featuredWorkData.map(data => 
       <FeaturedWork key={data.id} imgSrc={data.imgUrl} title={data.title} pathTo={data.pathTo}/>
@@ -19,7 +26,7 @@ class App extends Component {
         <NavBar />
         <section className="my-info">
           <div className="container description-container">
-            <p className="my-description">Hello, I am BobbyJohn. I am free lance <span className="fancy">developer.</span> Living in South Pole Antarctica, currently working for <span className="fancy">twitch.</span></p>
+            <p className="my-description">Hello, I am John. I am free lance <span className="fancy">developer.</span> Living in South Pole Antarctica, currently working for <span className="fancy">twitch.</span></p>
           </div>
           <div className="container">
             <EmploymentHistory 
@@ -41,7 +48,7 @@ class App extends Component {
         <section className="my-career" id="work"> 
           <SecondaryHeader secondaryHeader="Featured Work" />
           <div className="featured-work__container">
-            {featuredWorkDataComponents}
+            {this.featuredWorkDataComponents()}
           </div>
           <SecondaryHeader secondaryHeader="Projects" id="projects"/>
           <div className="project-container">
