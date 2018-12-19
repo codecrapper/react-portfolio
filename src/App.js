@@ -19,7 +19,7 @@ class App extends Component {
         <NavBar />
         <section className="my-info">
           <div className="container description-container">
-            <p className="my-description">Hello, I am John. I am free lance <span className="fancy">developer.</span> Living in South Pole Antarctica, currently working for <span className="fancy">twitch.</span></p>
+            <p className="my-description">Hello, I am THE John. I am free lance <span className="fancy">developer.</span> Living in South Pole Antarctica, currently working for <span className="fancy">twitch.</span></p>
           </div>
           <div className="container">
             <EmploymentHistory 
